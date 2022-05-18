@@ -8,7 +8,8 @@ function factorial(number) {
         return number * factorial(number - 1);
     }
 }
-
+// const result = factorial(9);
+// console.log(`The factorial is ${result}`);
 
 
 // 2. Find the maximum number in a jagged array given below array of numbers?
@@ -29,7 +30,7 @@ for (let i = 0; i < ar.length; i++) {
         arr.push(element)
     }
 }
-
+// console.log(Math.max(...arr));
 
 // 3. Find the counts of duplicates in an array?
 const array = ["1", "5", "9", "14", "5", "22", "48", "25", "22", "20", "9", "13"]
